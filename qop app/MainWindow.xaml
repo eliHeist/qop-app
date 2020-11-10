@@ -1,0 +1,112 @@
+﻿<Window x:Class="qop_app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:qop_app"
+        mc:Ignorable="d"
+        Title="Students Register" Height="525" Width="1229" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="297*"/>
+            <RowDefinition Height="79*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="464"/>
+            <ColumnDefinition Width="565*"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100*" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Orientation="Vertical">
+                <Label Content="Year"/>
+                <ComboBox Name="year_field" />
+            </StackPanel>
+            
+        </Grid>
+
+        <Grid Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Name="search_box" Grid.Column="0" Width="700" Height="30" FontSize="18" />
+            <Button Grid.Column="1" Width="150" Height="30" Content="Search" FontSize="16" FontWeight="Bold" Foreground="Maroon" Margin="0,8,0,8"/>
+        </Grid>
+        <DataGrid Grid.Row="1" Grid.RowSpan="2" Grid.Column="2" Grid.ColumnSpan="2" />
+        <Grid Grid.RowSpan="2" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Students Name" Height="30"/>
+                <TextBox Name="students_name" Width="400" Height="30" FontSize="17" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Gender" Height="30"/>
+                <RadioButton x:Name="male_btn" GroupName="gender" Content="M" VerticalAlignment="Center"/>
+                <RadioButton x:Name="female_btn" GroupName="gender" Content="F" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Year of Admission" Height="30"/>
+                <TextBox Name="students_year_of_admission" Width="400" Height="30" FontSize="17" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Is Student" Height="30"/>
+                <ComboBox SelectedIndex="0" Name="is_student" Width="120" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    <ComboBoxItem Content="Yes"/>
+                    <ComboBoxItem Content="No"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Class" Height="30"/>
+                <TextBox Name="students_class" Width="400" Height="30" FontSize="17" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="5" Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Amount Paid" Height="30"/>
+                <TextBox Name="students_fees_paid" Width="400" Height="30" FontSize="17" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="6" Orientation="Horizontal" VerticalAlignment="Center">
+                <Label Content="Balance" Height="30"/>
+                <TextBox Name="students_balance" Width="400" Height="30" FontSize="17" />
+            </StackPanel>
+            <Grid Grid.Row="7" HorizontalAlignment="Stretch" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="40"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="1" Name="add_btn" Content="ADD" MinWidth="90" Height="30" Background="#FF17FF00" BorderBrush="#FF17FF00" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"/>
+                <Button Grid.Column="3" Name="update_btn" Content="UPDATE" MinWidth="90" Height="30" Background="#FFFFAE00" BorderBrush="#FFFFAE00" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"/>
+                <Button Grid.Column="5" Name="delete_btn" Content="DELETE" MinWidth="90" Height="30"  Background="Red" BorderBrush="Red" Foreground="White" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" />
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

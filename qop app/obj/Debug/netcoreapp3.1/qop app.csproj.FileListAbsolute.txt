@@ -1,0 +1,19 @@
+C:\Users\Eli Heist\source\repos\qop app\qop app\bin\Debug\netcoreapp3.1\qop app.exe
+C:\Users\Eli Heist\source\repos\qop app\qop app\bin\Debug\netcoreapp3.1\qop app.deps.json
+C:\Users\Eli Heist\source\repos\qop app\qop app\bin\Debug\netcoreapp3.1\qop app.runtimeconfig.json
+C:\Users\Eli Heist\source\repos\qop app\qop app\bin\Debug\netcoreapp3.1\qop app.runtimeconfig.dev.json
+C:\Users\Eli Heist\source\repos\qop app\qop app\bin\Debug\netcoreapp3.1\qop app.dll
+C:\Users\Eli Heist\source\repos\qop app\qop app\bin\Debug\netcoreapp3.1\qop app.pdb
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app.csprojAssemblyReference.cache
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app_MarkupCompile.cache
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app_MarkupCompile.lref
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app.g.resources
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app.AssemblyInfoInputs.cache
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app.AssemblyInfo.cs
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app.csproj.CoreCompileInputs.cache
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app.dll
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app.pdb
+C:\Users\Eli Heist\source\repos\qop app\qop app\obj\Debug\netcoreapp3.1\qop app.genruntimeconfig.cache
